@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>detail</title>
+    <link rel="stylesheet" type="text/css" href="css/detail.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <center>
+            <div class="row">
+                <div class="column2">
+                    <img src="img/showcase1.png" alt="" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column2">
+                    <img src="img/showcase2.png" alt="" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column2">
+                    <img src="img/showcase3.png" alt="" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column2">
+                    <img src="img/showcase4.png" alt="" style="width:100%" onclick="myFunction(this);">
+                </div>
+            </div>
+            <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg" alt="expand" src="image/deuren.JPG" style="width:50%">
+                <div id="imgtext"></div>
+            </div>
+        </center>
+        <center>
+            <button class="bestel">Bestel</button>
+        </center>
+        <div class="info">
+            <ul>
+                <li>Overige informatie</li>
+                <li>Staat</li>
+                <li>Categorie
+                    Gebruikt</li>
+                <li>Volledige onderhoudshistorie Ja</li>
+                <li>Milieu</li>
+                <li>Brandstof
+                    Benzine</li>
+                <li>Brandstofverbruik</li>
+                <li>16 l/100 km (gem.)</li>
+                <li>24,7 l/100 km (stadsverkeer)</li>
+                <li>10,7 l/100 km (buitenwegen)</li>
+            </ul>
+        </div>
+        <div class="info2">
+            <ul>
+                <li>Gegevens</li>
+                <li>Merk
+                    Lamborghini</li>
+                <li>Model
+                    Aventador</li>
+                <li>Advertentienr.
+                    7882038-AWD</li>
+                <li>Kleur
+                    Grijs</li>
+                <li>Soort lak
+                    Metallic</li>
+                <li>Oorspronkelijke kleur
+                    Grijs</li>
+                <li>Interieurinrichting
+                    Leder, Zwart</li>
+                <li>Carrosserietype
+                    Coupé</li>
+                <li>Deuren
+                    2</li>
+                <li>Stoelen
+                    2</li>
+                <li>Landversie
+                    Nederland</li>
+            </ul>
+        </div>
+            <div class="footer">
+                <div class="footer__item">
+                    <span class="footer__text">@Michael Roelofs 1MD1</span>
+                </div>
+                <div class="footer__item">
+                    <span>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="far fa-envelope"></i>
+                    </span>
+                </div>
+            </div>
+            <script>
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+
+            function myFunction(imgs) {
+                var expandImg = document.getElementById("expandedImg");
+                var imgText = document.getElementById("imgtext");
+                expandImg.src = imgs.src;
+                imgText.innerHTML = imgs.alt;
+                expandImg.parentElement.style.display = "block";
+            }
+            </script>
+</body>
+
+</html>

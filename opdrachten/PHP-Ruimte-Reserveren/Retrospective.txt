@@ -1,0 +1,23 @@
+27-4-2020
+We hebben een design van een login, registratie en index gemaakt 
+en onderzoek gedaan naar hoe we dit project gaan aanpakken.
+
+30-4-2020
+We hebben een login en registratie systeem gemaakt met PHP, en MySQL.
+
+
+5-8-2020
+We hebben een begin gemaakt aan het planning systeem om het lokaal te reserveren.
+
+5-15-2020
+Ik ben verder gegaan met het planning systeem en ik hoop het eind volgende week af te ronden.
+
+6-12-2020
+Ik ben bezig geweest met het klaslokaal overzicht pagina, alleen back end nog wat problemen oplossen.
+
+6-19-2020
+We hebben vandaag bestanden samengevoegd en bugs gefixed
+
+6-25-2020
+Ik heb alles aan elkaar gelinkt en de back-end zowel 
+als de front-end volledig werkend gemaakt. 
